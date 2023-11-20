@@ -1,10 +1,8 @@
 
-
-
 export default function Home() {
   return (
     <div>
-      CRM project started
+      <h1> CRM project started </h1>
     </div>
   )
 }
