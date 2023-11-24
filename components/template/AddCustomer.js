@@ -45,7 +45,7 @@ const AddCustomer = () => {
     return (
         <div className='customer-page'>
             <h4>Add New Customer</h4>
-            <Form form setForm={setForm} />
+            <Form form={form} setForm={setForm} />
             <div className='customer-page__buttons'>
                 <button className='first' onClick={cancelHandler}>Cancel</button>
                 <button className='second' onClick={saveHandler}>Save</button>
