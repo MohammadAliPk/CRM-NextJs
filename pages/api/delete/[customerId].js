@@ -9,7 +9,8 @@ export default async function handler(req, res) {
         res.status(500).json({
             status: "Failed",
             message: "Error connecting to database"
-        })
+        });
+        return;
     }
     if (req.method === "DELETE") {
         const id = req.query.customerId;
