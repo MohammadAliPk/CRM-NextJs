@@ -16,10 +16,10 @@ const customerSchema = new Schema({
         required: true,
         minLength: 1,
     },
-    phoneNumber: String,
+    phone: String,
     address: String,
     postalCode: Number,
-    data: Date,
+    date: Date,
     products: {
         type: Array,
         default: [],
